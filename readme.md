@@ -4,7 +4,7 @@
 
   <p>The project is divided into backend and frontend components.</p>
 
-  <h4>Backend</h4>
+  <h3>Backend</h3>
 
   <ul>
     <li>
@@ -164,3 +164,48 @@
   </ul>
 
   <p>Now your API is exposed through the port 8080.</p>
+
+
+  <h2> FrontEnd </h2>
+
+  
+  <h3>Project Overview</h3>
+
+  <p>The frontend is built using React and styled with Tailwind CSS. It consists of three main pages: Register, Login, and the main page ("/").</p>
+
+  <h4>Frontend Tech Stack Used:</h4>
+  <ul>
+    <li>React</li>
+    <li>Tailwind CSS</li>
+  </ul>
+
+  <h4>Pages and Components:</h4>
+  <ul>
+    <li><strong>Register Page:</strong> Allows users to create a new account through the API endpoint <code>/auth/</code>.</li>
+    <li><strong>Login Page:</strong> Users can log in using the <code>/auth/token/</code> endpoint, which returns a JWT token. This token must be stored for subsequent API requests.</li>
+    <li><strong>Main Page ("/"):</strong> Contains two components: Analyse and Results.</li>
+    <ul>
+      <li><strong>Analyse Component:</strong> Uses the <code>/predict</code> endpoint to submit prompts. The JWT token should be included as a header for authentication. Results are logged in the database for the current user.</li>
+      <li><strong>Results Component:</strong> Displays the prediction logs for the current user.</li>
+    </ul>
+  </ul>
+
+  <h3>Steps to Reproduce the Frontend</h3>
+
+  <ol>
+    <li>Clone the repository:
+      <code>git clone https://github.com/Pranay-Pandey/ml-assignment-frontend</code>
+    </li>
+    <li>Build the project:
+      <code>npm install .</code>
+    </li>
+    <li>Create a <code>.env</code> file and set the variable:
+      <code>REACT_APP_YOUR_BACKEND_URL</code> as the hosted backend URL.
+    </li>
+    <li>Start the development server:
+      <code>npm run start</code>
+    </li>
+  </ol>
+
+  <p>This will start the development server hosting the frontend. Make sure the backend is running and accessible at the specified URL in the <code>.env</code> file.</p>
+
