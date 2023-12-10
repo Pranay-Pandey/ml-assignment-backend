@@ -165,6 +165,9 @@
 
   <p>Now your API is exposed through the port 8080.</p>
 
+  ![image](https://github.com/Pranay-Pandey/ml-assignment-backend/assets/79053599/731a4d72-e97c-4939-a7a2-6dbcd5758e0f)
+
+
 
   <h2> FrontEnd </h2>
 
@@ -208,4 +211,12 @@
   </ol>
 
   <p>This will start the development server hosting the frontend. Make sure the backend is running and accessible at the specified URL in the <code>.env</code> file.</p>
+
+  ![image](https://github.com/Pranay-Pandey/ml-assignment-backend/assets/79053599/53305db6-3ea7-46bb-9625-75ac5339b7c6)
+  ![image](https://github.com/Pranay-Pandey/ml-assignment-backend/assets/79053599/46bb36c5-d762-44ec-aacd-3e1bdc553cca)
+  ![image](https://github.com/Pranay-Pandey/ml-assignment-backend/assets/79053599/1c6af65b-2a77-473c-93e2-d10d752d45c0)
+  ![image](https://github.com/Pranay-Pandey/ml-assignment-backend/assets/79053599/17663a8d-4499-445e-9a77-2558ca003e48)
+  ![image](https://github.com/Pranay-Pandey/ml-assignment-backend/assets/79053599/32b63692-b32f-4e4a-a3e3-5566fe030311)
+
+  
 
